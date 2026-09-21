@@ -1,0 +1,6 @@
+{
+  "name": "Global Fly Private Limited",
+  "description": "گلوبل فلائی پرائیویٹ لمیٹڈ - لاہور اور سعودی عرب کے لیے پراعتماد گھریلو اور دفتری سٹافنگ ایجنسی",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

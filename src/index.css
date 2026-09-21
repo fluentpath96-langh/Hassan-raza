@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-green: #0B5D3B;
+  --color-brand-green-hover: #08492E;
+  --color-brand-green-light: #EBF7F1;
+  --color-brand-navy: #0B2A5B;
+  --color-brand-navy-hover: #071C3D;
+  --color-brand-navy-light: #EEF3FA;
+  --color-brand-gold: #D4A93A;
+  --color-brand-gold-hover: #BA9028;
+  --color-brand-gold-light: #FCF7EA;
+  --color-brand-red: #C93B2B;
+  --color-brand-red-light: #FCEBEA;
+  --color-brand-surface: #F8F9FA;
+  --color-brand-card: #FFFFFF;
+  --color-brand-border: #E2E6E9;
+  --color-brand-muted: #5F6B72;
+
+  --font-urdu-heading: "Noto Nastaliq Urdu", serif;
+  --font-arabic-body: "Noto Sans Arabic", sans-serif;
+  --font-english: "Source Sans 3", sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: "Noto Sans Arabic", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #F8F9FA;
+    color: #191C1D;
+    direction: rtl;
+    text-align: right;
+  }
+}
+
+.font-urdu-title {
+  font-family: "Noto Nastaliq Urdu", serif;
+  line-height: 2.1;
+}
+
+.font-arabic-body {
+  font-family: "Noto Sans Arabic", sans-serif;
+}
+
+.font-en-label {
+  font-family: "Source Sans 3", sans-serif;
+}
